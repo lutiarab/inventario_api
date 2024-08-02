@@ -29,3 +29,10 @@ app.listen(PORT,() =>{
     console.log(`Servidor rodando na porta ${PORT}`);
 });
 
+//Inicie com o dotenv 
+
+const dotenv = require('dotenv');
+ambiente DeviceOrientationEvent.config();
+
+//importar as bibliotecas 
+const db = require('./config/db');
