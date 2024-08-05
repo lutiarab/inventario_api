@@ -15,4 +15,5 @@ db.connect((err) =>{
     console.log(`Conectado ao Banco de Dados ${process.env.DB_NAME}`);//Exibe a mensagem de sucesso
 });
 
+
 module.exports=db;
