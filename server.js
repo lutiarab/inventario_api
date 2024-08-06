@@ -5,7 +5,7 @@ dotenv.config();
 
 
 //importar as bibliotecas 
-const db = require('./config/db');
+const inventory_db = require('./config/inventory_db');
 
 const cors = require('cors');
 
